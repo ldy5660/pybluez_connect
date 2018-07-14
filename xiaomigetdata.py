@@ -33,4 +33,5 @@ try:
                         measured_anterior = measured
 
 
-
+except KeyboardInterrupt:
+sys.exit(1)
