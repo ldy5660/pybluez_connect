@@ -17,7 +17,7 @@ try:
         if len(returnedList) > 0:
             (mac, uuid, major, minor, txpower, rssi) = returnedList[0].split(',', 6)
             # CAMBIAR LA DIRECCION MAC
-            if mac == 'f5:fa:2f:53:fc:7a' and uuid[0:22] == '01880f1096ab190d161d18':
+            if mac == 'f5:fa:2f:53:fc:7a' and uuid[0:22] == '03021b1810161b1802a6e2':
                 measunit = uuid[22:24]
                 measured = int((uuid[26:28] + uuid[24:26]), 16) * 0.01
 
